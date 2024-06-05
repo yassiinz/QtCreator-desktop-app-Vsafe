@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminEquipment</class>
+ <widget class="QWidget" name="AdminEquipment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:century gothic;
+font-size:17px;
+background:#333;
+
+}
+
+
+QPushButton
+{
+background:blue;
+border-radius:15px;
+}
+QToolButton
+{
+background:blue;
+border-radius:60px;
+}
+QTextEdit
+{
+bakcground:#333;
+border-radius:60px;
+}
+QLabel
+{
+color:white;
+}
+QWidget
+{
+color:white;
+}
+QPushButton:hover
+{
+background:grey;
+}
+QLineEdit
+{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solid #717072;
+}
+QTableView
+{
+background:#333;
+}
+QHeaderView {
+background:#333;
+}
+QTextBrowser {
+font-family:century gothic;
+font-size:30px;
+}&lt;
+</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
